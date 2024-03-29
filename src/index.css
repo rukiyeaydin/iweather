@@ -1,0 +1,26 @@
+* {
+    font-family: "Nunito Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    background-image: url("../src/assets/images/Background.png");
+    background-repeat: repeat;
+    background-color: #13131a;
+}
+*::-webkit-scrollbar {
+    height: 7px;
+    width: 7px;
+}
+*::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background-color: #c5c5c5;
+    border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #5d5d60;
+}

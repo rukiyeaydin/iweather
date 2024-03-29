@@ -1,0 +1,108 @@
+.detail-all{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding-block: 20px;
+}
+
+.detail-up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.detail-top{
+    padding: 10px;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #dfdfed;
+    border-radius: 7px;
+    /* background-image: url("../assets//images/Clear.webp"); */
+    background-repeat: repeat;
+    background-size: cover; 
+}
+
+.detail-middle{
+    width: 270px;
+}
+
+.detail-middle-single-info{
+    background-color: #22222f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-block: 2px;
+    margin-left: 20px;
+    border-radius: 5px;
+    padding: 16px 10px;
+    width: 300px;
+}
+
+.detail-info-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detail-down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 10px;
+    background-color: #22222f;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.detail-day{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: 50px;
+}
+
+.detail-day-svg{
+    width: 50px;
+    height: 50px;
+}
+
+@media screen and (max-width: 900px) {
+    .detail-all{
+        width: 100%;
+        height: auto;
+    }
+    .detail-up{
+        flex-direction: column;
+        width: 100%;
+    }
+    .detail-middle{
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .detail-middle-single-info{
+        margin-left: 0px;
+        width: 90%;
+    }
+    .detail-down{
+        max-width: 90%;
+        overflow-x: auto;
+    }
+}
+@media screen and (max-width: 350px) {
+    .detail-top{
+        width: 90%;
+        height: auto;
+    }
+}

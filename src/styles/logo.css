@@ -1,0 +1,11 @@
+.logo-container{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.logo-icon{
+    height: 50px;
+    width: 50px;
+    color: #8181da;
+}
