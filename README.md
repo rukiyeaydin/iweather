@@ -2,7 +2,7 @@
 
 A react weather app with axios and openWeatherMap.
 
-See the demo on 
+See the demo on https://iweather-ra.netlify.app/
 
 ## What did i use?
 
