@@ -69,3 +69,13 @@
     text-decoration: none;
     color: white;
 }
+
+.get-location{
+    margin-top: 30px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #22222f;
+    border: none;
+    color: white;
+}

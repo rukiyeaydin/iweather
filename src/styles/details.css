@@ -95,14 +95,9 @@
         margin-left: 0px;
         width: 90%;
     }
+
     .detail-down{
-        max-width: 90%;
-        overflow-x: auto;
-    }
-}
-@media screen and (max-width: 350px) {
-    .detail-top{
         width: 90%;
-        height: auto;
+        overflow-x: auto;
     }
 }

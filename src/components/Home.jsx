@@ -35,6 +35,22 @@ const Home = () => {
     }
   };
 
+  const handleGetCurrentLocation = async () => {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(async (position) => {
+        const latitude = position.coords.latitude;
+        const longitude = position.coords.longitude;
+        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${KEYS.API_KEY}&units=metric`);
+        const data = await response.json();
+        setCityList([data]);
+      }, (error) => {
+        console.error('Error getting current location:', error);
+      });
+    } else {
+      console.error('Geolocation is not supported by this browser.');
+    }
+  };
+
   return (
     <div className='home-all'>
       <Link to='/' className='home-header'>
@@ -59,6 +75,7 @@ const Home = () => {
             </div>
           ))}
         </div>
+        <button onClick={handleGetCurrentLocation} className='get-location'>Get Current Location</button>
       </div>
       <p></p>
     </div>
