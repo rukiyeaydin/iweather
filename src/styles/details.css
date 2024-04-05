@@ -54,12 +54,11 @@
 
 .detail-down{
     display: flex;
-    align-items: center;
-    justify-content: center;
     padding-block: 10px;
     background-color: #22222f;
     border-radius: 5px;
     overflow-x: auto;
+    margin-bottom: 20px;
 }
 
 .detail-day{
