@@ -72,7 +72,8 @@
 
 .get-location{
     margin-top: 30px;
-    padding: 10px 20px;
+    padding: 12px 10px;
+    width: 200px;
     border-radius: 5px;
     cursor: pointer;
     background-color: #22222f;

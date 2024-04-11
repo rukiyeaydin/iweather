@@ -75,6 +75,7 @@ const Home = () => {
             </div>
           ))}
         </div>
+        <p style={{marginTop: "30px"}}>or</p>
         <button onClick={handleGetCurrentLocation} className='get-location'>Get Current Location</button>
       </div>
       <p></p>
